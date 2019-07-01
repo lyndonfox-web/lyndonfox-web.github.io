@@ -403,3 +403,8 @@ body {
 	text-align: center;
 	margin: auto 0;
 }
+
+.row:before,
+.row:after {
+	display: none !important;
+}
