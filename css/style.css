@@ -65,13 +65,14 @@ body {
 }
 
 .aboutImage {
-	max-width: 100%;
+	max-width: 50%;
 }
 
 .skillsSection,
 .contactSection {
 	background-color: #d35400;
 	color: #fff;
+	padding-bottom: 200px;
 }
 
 .skill {
@@ -230,6 +231,9 @@ body {
 	width: 100%;
 }
 
+.container {
+	margin-bottom: 50px;
+}
 
 .items li img {
 	width: 100%;
@@ -403,6 +407,119 @@ body {
 	text-align: center;
 	margin: auto 0;
 }
+
+
+.items1 li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.items1Container {
+	width: 100%;
+}
+
+.container {
+	margin-bottom: 50px;
+}
+
+.items1 li img {
+	width: 100%;
+	-webkit-transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
+}
+
+.items1 .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.items1 .icons {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	left: 50%;
+	top: 50%;
+	margin: -20px auto 0 -47px;
+	text-align: center;
+	z-index: 3;
+}
+
+.items1 .icons i {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 9px;
+}
+
+.items1 a {
+	width: 40px;
+	height: 40px;
+	background-color: #d35400;
+	position: relative;
+	display: inline-block;
+
+
+	-webkit-transition: all 0.2s linear, 0.5s;
+	-moz-transition: all 0.2s linear, 0.5s;
+	-o-transition: all 0.2s linear, 0.5s;
+	-ms-transition: all 0.2s linear, 0.5s;
+	-transition: all 0.2s linear, 0.5s;
+
+}
+
+.items1 .imageOverlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+
+	-webkit-transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
+}
+
+.items1 .item:hover .imageOverlay {
+	opacity: 1;
+}
+
+.items1 .openButton {
+	float: left;
+	left: -200px;
+}
+
+.items1 .projectLink {
+	float: right;
+	right: -200px;
+}
+
+.items1 .item:hover .openButton {
+	left: 0px;
+}
+
+.items1 .item:hover .projectLink {
+	right: 0px;
+}
+
+.items1 .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-transform: scale(1.05, 1.05);
+}
+
+.items1 {
+	padding: 0;
+}
+
 
 .row:before,
 .row:after {
